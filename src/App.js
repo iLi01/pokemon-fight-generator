@@ -1,8 +1,13 @@
-import RandomPokemon from './components/PokemonGenerator';
+import InputForm from './components/InputForm';
+import PokemonGenerator from './components/PokemonGenerator';
+
 
 function App() {
   return (
-    <RandomPokemon/>
+    <>
+    <InputForm/>
+    <PokemonGenerator/>
+    </>
   );
 }
 

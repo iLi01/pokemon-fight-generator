@@ -1,7 +1,196 @@
 * {
+  width: 100%;
   box-sizing: border-box;
   margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 0;
   font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Playpen Sans', cursive;
+}
+
+:root {
+  --distance-small: 2rem;
+  --h2-size: 1.5rem;
+  --h1-size: 2.3rem;
+  --highlight: rgb(255, 225, 0);
+}
+
+h1 {
+  font-size: var(--h1-size);
+  color: rgb(226, 226, 226);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  font-weight: 900;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  background-color: var(--highlight);
+  font-size: var(--h2-size);
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.NameCard-1 {
+  display: flex;
+  margin-top: var(--distance-small);
+  margin-bottom: var(--distance-small);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  text-align: center;
+  
+}
+
+.NameCard-1 > img{
+  margin-left: 1rem;
+  max-width: 2.5rem;
+}
+
+.NameCard-1 > input {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 7rem;
+  padding: 0.5rem;
+}
+
+.NameCard-2 {
+  display: flex;
+  margin-top: var(--distance-small);
+  margin-bottom: var(--distance-small);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  text-align: center;
+}
+
+.NameCard-2 > img{
+  margin-left: 1rem;
+  max-width: 2.5rem;
+}
+
+.NameCard-2 > input {
+  border-radius: 7rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+.TeamSize {
+  background-color: rgb(226, 226, 226);
+  max-width: 1000px;
+  margin: auto;
+  left: 50%;
+  text-align: center;
+  border-radius: 9rem;
+  margin-top: var(--distance-small);
+  margin-bottom: var(--distance-small);
+}
+
+.TeamInput {
+  width: 80%;
+  margin: auto;
+  text-align:center;
+}
+
+.TeamInput input {
+  width: 30%;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: var(--distance-small);
+  margin-bottom: var(--distance-small);
+}
+
+.TeamMembers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.TeamMembers-img img {
+  width: 5rem;
+}
+
+.TeamMembers-img {
+  max-width: 10%;
+  margin-bottom: var(--distance-small);
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+
+.RoundsBtn {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+}
+
+.RoundsBtn-1, .RoundsBtn-2, .RoundsBtn-3 {
+  width: 20%;
+  border: none;
+  border-radius: 3rem;
+  margin: var(--distance-small);
+  padding: 0.5rem 0;
+  font-weight: 900;
+  background-color: rgb(226, 226, 226);
+}
+
+.RoundsBtn-1:hover, .RoundsBtn-2:hover, .RoundsBtn-3:hover {
+  background-color: var(--highlight);
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+
+.InputForm-button {
+  display: flex;
+  border: 4px solid var(--highlight);
+  background-color: white;
+  max-width: 40%;
+  border-radius: 3rem;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 1.3rem;
+  font-weight: 900;
+}
+
+.InputForm-button:hover {
+  background-color: var(--highlight);
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+.RandomPokemon > img {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  justify-content: center;
 }
